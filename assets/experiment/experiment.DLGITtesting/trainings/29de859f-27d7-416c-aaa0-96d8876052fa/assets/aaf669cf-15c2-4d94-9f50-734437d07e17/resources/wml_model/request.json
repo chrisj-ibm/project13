@@ -1,0 +1,40 @@
+{
+  "model_definition": {
+    "id": "wml_model_definition.GITmodeldefinition"
+  },
+  "name": "model_admin-2387782161081663-513204583",
+  "content_location": {
+    "connection": {
+
+    },
+    "contents": [{
+      "content_format": "native",
+      "file_name": "admin-2387782161081663-513204583.zip",
+      "location": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/assets/aaf669cf-15c2-4d94-9f50-734437d07e17/resources/wml_model/admin-2387782161081663-513204583.zip"
+    }],
+    "location": {
+      "path": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings",
+      "model": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/aaf669cf-15c2-4d94-9f50-734437d07e17/data/model",
+      "notebooks_path": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/notebooks",
+      "training": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/aaf669cf-15c2-4d94-9f50-734437d07e17",
+      "training_status": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/aaf669cf-15c2-4d94-9f50-734437d07e17/training-status.json",
+      "logs": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/aaf669cf-15c2-4d94-9f50-734437d07e17/logs",
+      "assets_path": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/assets"
+    },
+    "type": "fs"
+  },
+  "training_data_references": [{
+    "connection": {
+
+    },
+    "location": {
+      "path": "tf-mnist"
+    },
+    "type": "fs"
+  }],
+  "software_spec": {
+    "name": "tensorflow_rt22.1-py3.9"
+  },
+  "project_id": "9e62fac4-6520-4f51-bedd-0556168b1a44",
+  "type": "tensorflow_rt22.1"
+}

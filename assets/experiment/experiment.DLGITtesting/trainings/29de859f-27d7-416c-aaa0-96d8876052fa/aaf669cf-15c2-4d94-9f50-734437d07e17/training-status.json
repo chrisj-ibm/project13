@@ -1,0 +1,975 @@
+{
+  "metadata": {
+    "created_at": "2022-08-22T13:39:50.000Z",
+    "id": "aaf669cf-15c2-4d94-9f50-734437d07e17",
+    "modified_at": "2022-08-22T13:44:18.824Z",
+    "parent_id": "29de859f-27d7-416c-aaa0-96d8876052fa",
+    "project_id": "9e62fac4-6520-4f51-bedd-0556168b1a44"
+  },
+  "entity": {
+    "model_definition": {
+      "command": "convolutional_network.py --trainImagesFile train-images-idx3-ubyte.gz --trainLabelsFile train-labels-idx1-ubyte.gz --testImagesFile t10k-images-idx3-ubyte.gz --testLabelsFile t10k-labels-idx1-ubyte.gz --learningRate 0.001 --trainingIters 6000",
+      "hardware_spec": {
+        "id": "f327bdf7-5634-43d8-b1e3-445afeaf18b9",
+        "name": "V100",
+        "num_nodes": 1
+      },
+      "id": "wml_model_definition.GITmodeldefinition",
+      "parameters": {
+        "compute": {
+          "name": "V100",
+          "nodes": 1
+        },
+        "description": "GIT model definition",
+        "name": "GIT model definition"
+      },
+      "software_spec": {
+        "id": "acd9c798-6974-5d2f-a657-ce06e986df4d",
+        "name": "tensorflow_rt22.1-py3.9"
+      }
+    },
+    "project_id": "9e62fac4-6520-4f51-bedd-0556168b1a44",
+    "results_reference": {
+      "connection": {
+
+      },
+      "location": {
+        "path": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings",
+        "model": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/aaf669cf-15c2-4d94-9f50-734437d07e17/data/model",
+        "notebooks_path": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/notebooks",
+        "training": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/aaf669cf-15c2-4d94-9f50-734437d07e17",
+        "training_status": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/aaf669cf-15c2-4d94-9f50-734437d07e17/training-status.json",
+        "logs": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/aaf669cf-15c2-4d94-9f50-734437d07e17/logs",
+        "assets_path": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/assets"
+      },
+      "type": "fs"
+    },
+    "status": {
+      "completed_at": "2022-08-22T13:44:18.816Z",
+      "metrics": [{
+        "iteration": 51200,
+        "ml_metrics": {
+          "accuracy": 0.9113
+        },
+        "timestamp": "2022-08-22T13:41:08.058Z"
+      }, {
+        "iteration": 57600,
+        "ml_metrics": {
+          "accuracy": 0.9177
+        },
+        "timestamp": "2022-08-22T13:41:08.058Z"
+      }, {
+        "iteration": 64000,
+        "ml_metrics": {
+          "accuracy": 0.9231
+        },
+        "timestamp": "2022-08-22T13:41:08.058Z"
+      }, {
+        "iteration": 70400,
+        "ml_metrics": {
+          "accuracy": 0.9269
+        },
+        "timestamp": "2022-08-22T13:41:08.058Z"
+      }, {
+        "iteration": 76800,
+        "ml_metrics": {
+          "accuracy": 0.9299
+        },
+        "timestamp": "2022-08-22T13:41:08.058Z"
+      }, {
+        "iteration": 6400,
+        "ml_metrics": {
+          "accuracy": 0.6442
+        },
+        "timestamp": "2022-08-22T13:41:08.280Z"
+      }, {
+        "iteration": 12800,
+        "ml_metrics": {
+          "accuracy": 0.7837
+        },
+        "timestamp": "2022-08-22T13:41:08.280Z"
+      }, {
+        "iteration": 19200,
+        "ml_metrics": {
+          "accuracy": 0.8329
+        },
+        "timestamp": "2022-08-22T13:41:08.280Z"
+      }, {
+        "iteration": 25600,
+        "ml_metrics": {
+          "accuracy": 0.8685
+        },
+        "timestamp": "2022-08-22T13:41:08.280Z"
+      }, {
+        "iteration": 32000,
+        "ml_metrics": {
+          "accuracy": 0.8808
+        },
+        "timestamp": "2022-08-22T13:41:08.280Z"
+      }, {
+        "iteration": 38400,
+        "ml_metrics": {
+          "accuracy": 0.8978
+        },
+        "timestamp": "2022-08-22T13:41:08.280Z"
+      }, {
+        "iteration": 44800,
+        "ml_metrics": {
+          "accuracy": 0.9034
+        },
+        "timestamp": "2022-08-22T13:41:08.280Z"
+      }, {
+        "iteration": 83200,
+        "ml_metrics": {
+          "accuracy": 0.9292
+        },
+        "timestamp": "2022-08-22T13:41:08.491Z"
+      }, {
+        "iteration": 89600,
+        "ml_metrics": {
+          "accuracy": 0.9366
+        },
+        "timestamp": "2022-08-22T13:41:08.491Z"
+      }, {
+        "iteration": 96000,
+        "ml_metrics": {
+          "accuracy": 0.938
+        },
+        "timestamp": "2022-08-22T13:41:08.491Z"
+      }, {
+        "iteration": 102400,
+        "ml_metrics": {
+          "accuracy": 0.934
+        },
+        "timestamp": "2022-08-22T13:41:08.491Z"
+      }, {
+        "iteration": 108800,
+        "ml_metrics": {
+          "accuracy": 0.9408
+        },
+        "timestamp": "2022-08-22T13:41:08.491Z"
+      }, {
+        "iteration": 211200,
+        "ml_metrics": {
+          "accuracy": 0.9592
+        },
+        "timestamp": "2022-08-22T13:41:08.701Z"
+      }, {
+        "iteration": 217600,
+        "ml_metrics": {
+          "accuracy": 0.9572
+        },
+        "timestamp": "2022-08-22T13:41:08.701Z"
+      }, {
+        "iteration": 224000,
+        "ml_metrics": {
+          "accuracy": 0.9629
+        },
+        "timestamp": "2022-08-22T13:41:08.701Z"
+      }, {
+        "iteration": 230400,
+        "ml_metrics": {
+          "accuracy": 0.9611
+        },
+        "timestamp": "2022-08-22T13:41:08.701Z"
+      }, {
+        "iteration": 236800,
+        "ml_metrics": {
+          "accuracy": 0.9625
+        },
+        "timestamp": "2022-08-22T13:41:08.701Z"
+      }, {
+        "iteration": 243200,
+        "ml_metrics": {
+          "accuracy": 0.9589
+        },
+        "timestamp": "2022-08-22T13:41:08.701Z"
+      }, {
+        "iteration": 249600,
+        "ml_metrics": {
+          "accuracy": 0.9616
+        },
+        "timestamp": "2022-08-22T13:41:08.909Z"
+      }, {
+        "iteration": 256000,
+        "ml_metrics": {
+          "accuracy": 0.9631
+        },
+        "timestamp": "2022-08-22T13:41:08.909Z"
+      }, {
+        "iteration": 262400,
+        "ml_metrics": {
+          "accuracy": 0.9616
+        },
+        "timestamp": "2022-08-22T13:41:08.909Z"
+      }, {
+        "iteration": 268800,
+        "ml_metrics": {
+          "accuracy": 0.9622
+        },
+        "timestamp": "2022-08-22T13:41:08.909Z"
+      }, {
+        "iteration": 275200,
+        "ml_metrics": {
+          "accuracy": 0.9607
+        },
+        "timestamp": "2022-08-22T13:41:08.909Z"
+      }, {
+        "iteration": 281600,
+        "ml_metrics": {
+          "accuracy": 0.9633
+        },
+        "timestamp": "2022-08-22T13:41:09.113Z"
+      }, {
+        "iteration": 288000,
+        "ml_metrics": {
+          "accuracy": 0.9653
+        },
+        "timestamp": "2022-08-22T13:41:09.113Z"
+      }, {
+        "iteration": 294400,
+        "ml_metrics": {
+          "accuracy": 0.964
+        },
+        "timestamp": "2022-08-22T13:41:09.113Z"
+      }, {
+        "iteration": 300800,
+        "ml_metrics": {
+          "accuracy": 0.963
+        },
+        "timestamp": "2022-08-22T13:41:09.113Z"
+      }, {
+        "iteration": 307200,
+        "ml_metrics": {
+          "accuracy": 0.9653
+        },
+        "timestamp": "2022-08-22T13:41:09.113Z"
+      }, {
+        "iteration": 313600,
+        "ml_metrics": {
+          "accuracy": 0.9663
+        },
+        "timestamp": "2022-08-22T13:41:09.313Z"
+      }, {
+        "iteration": 320000,
+        "ml_metrics": {
+          "accuracy": 0.9658
+        },
+        "timestamp": "2022-08-22T13:41:09.313Z"
+      }, {
+        "iteration": 326400,
+        "ml_metrics": {
+          "accuracy": 0.9641
+        },
+        "timestamp": "2022-08-22T13:41:09.313Z"
+      }, {
+        "iteration": 332800,
+        "ml_metrics": {
+          "accuracy": 0.9626
+        },
+        "timestamp": "2022-08-22T13:41:09.313Z"
+      }, {
+        "iteration": 339200,
+        "ml_metrics": {
+          "accuracy": 0.9655
+        },
+        "timestamp": "2022-08-22T13:41:09.313Z"
+      }, {
+        "iteration": 377600,
+        "ml_metrics": {
+          "accuracy": 0.9692
+        },
+        "timestamp": "2022-08-22T13:41:09.514Z"
+      }, {
+        "iteration": 384000,
+        "ml_metrics": {
+          "accuracy": 0.9671
+        },
+        "timestamp": "2022-08-22T13:41:09.514Z"
+      }, {
+        "iteration": 390400,
+        "ml_metrics": {
+          "accuracy": 0.9689
+        },
+        "timestamp": "2022-08-22T13:41:09.514Z"
+      }, {
+        "iteration": 396800,
+        "ml_metrics": {
+          "accuracy": 0.968
+        },
+        "timestamp": "2022-08-22T13:41:09.514Z"
+      }, {
+        "iteration": 403200,
+        "ml_metrics": {
+          "accuracy": 0.9698
+        },
+        "timestamp": "2022-08-22T13:41:09.514Z"
+      }, {
+        "iteration": 409600,
+        "ml_metrics": {
+          "accuracy": 0.9695
+        },
+        "timestamp": "2022-08-22T13:41:09.717Z"
+      }, {
+        "iteration": 416000,
+        "ml_metrics": {
+          "accuracy": 0.9697
+        },
+        "timestamp": "2022-08-22T13:41:09.717Z"
+      }, {
+        "iteration": 422400,
+        "ml_metrics": {
+          "accuracy": 0.9674
+        },
+        "timestamp": "2022-08-22T13:41:09.717Z"
+      }, {
+        "iteration": 428800,
+        "ml_metrics": {
+          "accuracy": 0.9687
+        },
+        "timestamp": "2022-08-22T13:41:09.717Z"
+      }, {
+        "iteration": 435200,
+        "ml_metrics": {
+          "accuracy": 0.9661
+        },
+        "timestamp": "2022-08-22T13:41:09.717Z"
+      }, {
+        "iteration": 441600,
+        "ml_metrics": {
+          "accuracy": 0.9684
+        },
+        "timestamp": "2022-08-22T13:41:09.914Z"
+      }, {
+        "iteration": 448000,
+        "ml_metrics": {
+          "accuracy": 0.9709
+        },
+        "timestamp": "2022-08-22T13:41:09.914Z"
+      }, {
+        "iteration": 454400,
+        "ml_metrics": {
+          "accuracy": 0.9737
+        },
+        "timestamp": "2022-08-22T13:41:09.914Z"
+      }, {
+        "iteration": 460800,
+        "ml_metrics": {
+          "accuracy": 0.9711
+        },
+        "timestamp": "2022-08-22T13:41:09.914Z"
+      }, {
+        "iteration": 467200,
+        "ml_metrics": {
+          "accuracy": 0.9695
+        },
+        "timestamp": "2022-08-22T13:41:09.914Z"
+      }, {
+        "iteration": 115200,
+        "ml_metrics": {
+          "accuracy": 0.9428
+        },
+        "timestamp": "2022-08-22T13:41:10.135Z"
+      }, {
+        "iteration": 121600,
+        "ml_metrics": {
+          "accuracy": 0.9401
+        },
+        "timestamp": "2022-08-22T13:41:10.136Z"
+      }, {
+        "iteration": 128000,
+        "ml_metrics": {
+          "accuracy": 0.9452
+        },
+        "timestamp": "2022-08-22T13:41:10.136Z"
+      }, {
+        "iteration": 134400,
+        "ml_metrics": {
+          "accuracy": 0.9435
+        },
+        "timestamp": "2022-08-22T13:41:10.136Z"
+      }, {
+        "iteration": 140800,
+        "ml_metrics": {
+          "accuracy": 0.9477
+        },
+        "timestamp": "2022-08-22T13:41:10.136Z"
+      }, {
+        "iteration": 147200,
+        "ml_metrics": {
+          "accuracy": 0.9489
+        },
+        "timestamp": "2022-08-22T13:41:10.335Z"
+      }, {
+        "iteration": 153600,
+        "ml_metrics": {
+          "accuracy": 0.9491
+        },
+        "timestamp": "2022-08-22T13:41:10.335Z"
+      }, {
+        "iteration": 160000,
+        "ml_metrics": {
+          "accuracy": 0.9515
+        },
+        "timestamp": "2022-08-22T13:41:10.335Z"
+      }, {
+        "iteration": 166400,
+        "ml_metrics": {
+          "accuracy": 0.9538
+        },
+        "timestamp": "2022-08-22T13:41:10.335Z"
+      }, {
+        "iteration": 172800,
+        "ml_metrics": {
+          "accuracy": 0.9545
+        },
+        "timestamp": "2022-08-22T13:41:10.335Z"
+      }, {
+        "iteration": 505600,
+        "ml_metrics": {
+          "accuracy": 0.9722
+        },
+        "timestamp": "2022-08-22T13:41:10.538Z"
+      }, {
+        "iteration": 512000,
+        "ml_metrics": {
+          "accuracy": 0.974
+        },
+        "timestamp": "2022-08-22T13:41:10.538Z"
+      }, {
+        "iteration": 518400,
+        "ml_metrics": {
+          "accuracy": 0.9714
+        },
+        "timestamp": "2022-08-22T13:41:10.538Z"
+      }, {
+        "iteration": 524800,
+        "ml_metrics": {
+          "accuracy": 0.9738
+        },
+        "timestamp": "2022-08-22T13:41:10.538Z"
+      }, {
+        "iteration": 531200,
+        "ml_metrics": {
+          "accuracy": 0.9766
+        },
+        "timestamp": "2022-08-22T13:41:10.538Z"
+      }, {
+        "iteration": 179200,
+        "ml_metrics": {
+          "accuracy": 0.9538
+        },
+        "timestamp": "2022-08-22T13:41:10.737Z"
+      }, {
+        "iteration": 185600,
+        "ml_metrics": {
+          "accuracy": 0.9568
+        },
+        "timestamp": "2022-08-22T13:41:10.737Z"
+      }, {
+        "iteration": 192000,
+        "ml_metrics": {
+          "accuracy": 0.9569
+        },
+        "timestamp": "2022-08-22T13:41:10.737Z"
+      }, {
+        "iteration": 198400,
+        "ml_metrics": {
+          "accuracy": 0.9544
+        },
+        "timestamp": "2022-08-22T13:41:10.737Z"
+      }, {
+        "iteration": 204800,
+        "ml_metrics": {
+          "accuracy": 0.9567
+        },
+        "timestamp": "2022-08-22T13:41:10.737Z"
+      }, {
+        "iteration": 473600,
+        "ml_metrics": {
+          "accuracy": 0.9698
+        },
+        "timestamp": "2022-08-22T13:41:10.946Z"
+      }, {
+        "iteration": 480000,
+        "ml_metrics": {
+          "accuracy": 0.9699
+        },
+        "timestamp": "2022-08-22T13:41:10.946Z"
+      }, {
+        "iteration": 486400,
+        "ml_metrics": {
+          "accuracy": 0.9718
+        },
+        "timestamp": "2022-08-22T13:41:10.946Z"
+      }, {
+        "iteration": 492800,
+        "ml_metrics": {
+          "accuracy": 0.9712
+        },
+        "timestamp": "2022-08-22T13:41:10.946Z"
+      }, {
+        "iteration": 499200,
+        "ml_metrics": {
+          "accuracy": 0.9725
+        },
+        "timestamp": "2022-08-22T13:41:10.946Z"
+      }, {
+        "iteration": 345600,
+        "ml_metrics": {
+          "accuracy": 0.9654
+        },
+        "timestamp": "2022-08-22T13:41:11.148Z"
+      }, {
+        "iteration": 352000,
+        "ml_metrics": {
+          "accuracy": 0.9676
+        },
+        "timestamp": "2022-08-22T13:41:11.148Z"
+      }, {
+        "iteration": 358400,
+        "ml_metrics": {
+          "accuracy": 0.9682
+        },
+        "timestamp": "2022-08-22T13:41:11.148Z"
+      }, {
+        "iteration": 364800,
+        "ml_metrics": {
+          "accuracy": 0.968
+        },
+        "timestamp": "2022-08-22T13:41:11.148Z"
+      }, {
+        "iteration": 371200,
+        "ml_metrics": {
+          "accuracy": 0.9684
+        },
+        "timestamp": "2022-08-22T13:41:11.148Z"
+      }, {
+        "iteration": 537600,
+        "ml_metrics": {
+          "accuracy": 0.974
+        },
+        "timestamp": "2022-08-22T13:41:11.350Z"
+      }, {
+        "iteration": 544000,
+        "ml_metrics": {
+          "accuracy": 0.972
+        },
+        "timestamp": "2022-08-22T13:41:11.350Z"
+      }, {
+        "iteration": 550400,
+        "ml_metrics": {
+          "accuracy": 0.9745
+        },
+        "timestamp": "2022-08-22T13:41:11.350Z"
+      }, {
+        "iteration": 556800,
+        "ml_metrics": {
+          "accuracy": 0.9734
+        },
+        "timestamp": "2022-08-22T13:41:11.350Z"
+      }, {
+        "iteration": 563200,
+        "ml_metrics": {
+          "accuracy": 0.9738
+        },
+        "timestamp": "2022-08-22T13:41:11.350Z"
+      }, {
+        "iteration": 569600,
+        "ml_metrics": {
+          "accuracy": 0.9734
+        },
+        "timestamp": "2022-08-22T13:41:11.551Z"
+      }, {
+        "iteration": 576000,
+        "ml_metrics": {
+          "accuracy": 0.9737
+        },
+        "timestamp": "2022-08-22T13:41:11.551Z"
+      }, {
+        "iteration": 582400,
+        "ml_metrics": {
+          "accuracy": 0.9745
+        },
+        "timestamp": "2022-08-22T13:41:11.551Z"
+      }, {
+        "iteration": 588800,
+        "ml_metrics": {
+          "accuracy": 0.976
+        },
+        "timestamp": "2022-08-22T13:41:11.551Z"
+      }, {
+        "iteration": 595200,
+        "ml_metrics": {
+          "accuracy": 0.9746
+        },
+        "timestamp": "2022-08-22T13:41:11.551Z"
+      }, {
+        "iteration": 601600,
+        "ml_metrics": {
+          "accuracy": 0.9727
+        },
+        "timestamp": "2022-08-22T13:41:11.551Z"
+      }, {
+        "iteration": 608000,
+        "ml_metrics": {
+          "accuracy": 0.9728
+        },
+        "timestamp": "2022-08-22T13:41:11.751Z"
+      }, {
+        "iteration": 614400,
+        "ml_metrics": {
+          "accuracy": 0.9757
+        },
+        "timestamp": "2022-08-22T13:41:11.751Z"
+      }, {
+        "iteration": 620800,
+        "ml_metrics": {
+          "accuracy": 0.9748
+        },
+        "timestamp": "2022-08-22T13:41:11.751Z"
+      }, {
+        "iteration": 627200,
+        "ml_metrics": {
+          "accuracy": 0.9739
+        },
+        "timestamp": "2022-08-22T13:41:11.751Z"
+      }, {
+        "iteration": 633600,
+        "ml_metrics": {
+          "accuracy": 0.9739
+        },
+        "timestamp": "2022-08-22T13:41:11.953Z"
+      }, {
+        "iteration": 51200,
+        "ml_metrics": {
+          "accuracy": 0.9113
+        },
+        "timestamp": "2022-08-22T13:41:12.187Z"
+      }, {
+        "iteration": 57600,
+        "ml_metrics": {
+          "accuracy": 0.9177
+        },
+        "timestamp": "2022-08-22T13:41:12.187Z"
+      }, {
+        "iteration": 64000,
+        "ml_metrics": {
+          "accuracy": 0.9231
+        },
+        "timestamp": "2022-08-22T13:41:12.187Z"
+      }, {
+        "iteration": 70400,
+        "ml_metrics": {
+          "accuracy": 0.9269
+        },
+        "timestamp": "2022-08-22T13:41:12.187Z"
+      }, {
+        "iteration": 76800,
+        "ml_metrics": {
+          "accuracy": 0.9299
+        },
+        "timestamp": "2022-08-22T13:41:12.187Z"
+      }, {
+        "iteration": 6400,
+        "ml_metrics": {
+          "accuracy": 0.6442
+        },
+        "timestamp": "2022-08-22T13:41:12.388Z"
+      }, {
+        "iteration": 12800,
+        "ml_metrics": {
+          "accuracy": 0.7837
+        },
+        "timestamp": "2022-08-22T13:41:12.388Z"
+      }, {
+        "iteration": 19200,
+        "ml_metrics": {
+          "accuracy": 0.8329
+        },
+        "timestamp": "2022-08-22T13:41:12.388Z"
+      }, {
+        "iteration": 25600,
+        "ml_metrics": {
+          "accuracy": 0.8685
+        },
+        "timestamp": "2022-08-22T13:41:12.388Z"
+      }, {
+        "iteration": 32000,
+        "ml_metrics": {
+          "accuracy": 0.8808
+        },
+        "timestamp": "2022-08-22T13:41:12.388Z"
+      }, {
+        "iteration": 38400,
+        "ml_metrics": {
+          "accuracy": 0.8978
+        },
+        "timestamp": "2022-08-22T13:41:12.388Z"
+      }, {
+        "iteration": 44800,
+        "ml_metrics": {
+          "accuracy": 0.9034
+        },
+        "timestamp": "2022-08-22T13:41:12.388Z"
+      }, {
+        "iteration": 83200,
+        "ml_metrics": {
+          "accuracy": 0.9292
+        },
+        "timestamp": "2022-08-22T13:41:12.592Z"
+      }, {
+        "iteration": 89600,
+        "ml_metrics": {
+          "accuracy": 0.9366
+        },
+        "timestamp": "2022-08-22T13:41:12.592Z"
+      }, {
+        "iteration": 96000,
+        "ml_metrics": {
+          "accuracy": 0.938
+        },
+        "timestamp": "2022-08-22T13:41:12.592Z"
+      }, {
+        "iteration": 102400,
+        "ml_metrics": {
+          "accuracy": 0.934
+        },
+        "timestamp": "2022-08-22T13:41:12.592Z"
+      }, {
+        "iteration": 108800,
+        "ml_metrics": {
+          "accuracy": 0.9408
+        },
+        "timestamp": "2022-08-22T13:41:12.592Z"
+      }, {
+        "iteration": 211200,
+        "ml_metrics": {
+          "accuracy": 0.9592
+        },
+        "timestamp": "2022-08-22T13:41:12.792Z"
+      }, {
+        "iteration": 217600,
+        "ml_metrics": {
+          "accuracy": 0.9572
+        },
+        "timestamp": "2022-08-22T13:41:12.792Z"
+      }, {
+        "iteration": 224000,
+        "ml_metrics": {
+          "accuracy": 0.9629
+        },
+        "timestamp": "2022-08-22T13:41:12.792Z"
+      }, {
+        "iteration": 230400,
+        "ml_metrics": {
+          "accuracy": 0.9611
+        },
+        "timestamp": "2022-08-22T13:41:12.792Z"
+      }, {
+        "iteration": 236800,
+        "ml_metrics": {
+          "accuracy": 0.9625
+        },
+        "timestamp": "2022-08-22T13:41:12.792Z"
+      }, {
+        "iteration": 243200,
+        "ml_metrics": {
+          "accuracy": 0.9589
+        },
+        "timestamp": "2022-08-22T13:41:12.792Z"
+      }, {
+        "iteration": 249600,
+        "ml_metrics": {
+          "accuracy": 0.9616
+        },
+        "timestamp": "2022-08-22T13:41:12.990Z"
+      }, {
+        "iteration": 256000,
+        "ml_metrics": {
+          "accuracy": 0.9631
+        },
+        "timestamp": "2022-08-22T13:41:12.990Z"
+      }, {
+        "iteration": 262400,
+        "ml_metrics": {
+          "accuracy": 0.9616
+        },
+        "timestamp": "2022-08-22T13:41:12.990Z"
+      }, {
+        "iteration": 268800,
+        "ml_metrics": {
+          "accuracy": 0.9622
+        },
+        "timestamp": "2022-08-22T13:41:12.990Z"
+      }, {
+        "iteration": 275200,
+        "ml_metrics": {
+          "accuracy": 0.9607
+        },
+        "timestamp": "2022-08-22T13:41:12.990Z"
+      }, {
+        "iteration": 281600,
+        "ml_metrics": {
+          "accuracy": 0.9633
+        },
+        "timestamp": "2022-08-22T13:41:13.187Z"
+      }, {
+        "iteration": 288000,
+        "ml_metrics": {
+          "accuracy": 0.9653
+        },
+        "timestamp": "2022-08-22T13:41:13.187Z"
+      }, {
+        "iteration": 294400,
+        "ml_metrics": {
+          "accuracy": 0.964
+        },
+        "timestamp": "2022-08-22T13:41:13.187Z"
+      }, {
+        "iteration": 300800,
+        "ml_metrics": {
+          "accuracy": 0.963
+        },
+        "timestamp": "2022-08-22T13:41:13.187Z"
+      }, {
+        "iteration": 307200,
+        "ml_metrics": {
+          "accuracy": 0.9653
+        },
+        "timestamp": "2022-08-22T13:41:13.187Z"
+      }, {
+        "iteration": 313600,
+        "ml_metrics": {
+          "accuracy": 0.9663
+        },
+        "timestamp": "2022-08-22T13:41:13.499Z"
+      }, {
+        "iteration": 320000,
+        "ml_metrics": {
+          "accuracy": 0.9658
+        },
+        "timestamp": "2022-08-22T13:41:13.499Z"
+      }, {
+        "iteration": 326400,
+        "ml_metrics": {
+          "accuracy": 0.9641
+        },
+        "timestamp": "2022-08-22T13:41:13.499Z"
+      }, {
+        "iteration": 332800,
+        "ml_metrics": {
+          "accuracy": 0.9626
+        },
+        "timestamp": "2022-08-22T13:41:13.499Z"
+      }, {
+        "iteration": 339200,
+        "ml_metrics": {
+          "accuracy": 0.9655
+        },
+        "timestamp": "2022-08-22T13:41:13.499Z"
+      }, {
+        "iteration": 377600,
+        "ml_metrics": {
+          "accuracy": 0.9692
+        },
+        "timestamp": "2022-08-22T13:41:13.700Z"
+      }, {
+        "iteration": 384000,
+        "ml_metrics": {
+          "accuracy": 0.9671
+        },
+        "timestamp": "2022-08-22T13:41:13.700Z"
+      }, {
+        "iteration": 390400,
+        "ml_metrics": {
+          "accuracy": 0.9689
+        },
+        "timestamp": "2022-08-22T13:41:13.700Z"
+      }, {
+        "iteration": 396800,
+        "ml_metrics": {
+          "accuracy": 0.968
+        },
+        "timestamp": "2022-08-22T13:41:13.700Z"
+      }, {
+        "iteration": 403200,
+        "ml_metrics": {
+          "accuracy": 0.9698
+        },
+        "timestamp": "2022-08-22T13:41:13.700Z"
+      }, {
+        "iteration": 409600,
+        "ml_metrics": {
+          "accuracy": 0.9695
+        },
+        "timestamp": "2022-08-22T13:41:13.900Z"
+      }, {
+        "iteration": 416000,
+        "ml_metrics": {
+          "accuracy": 0.9697
+        },
+        "timestamp": "2022-08-22T13:41:13.900Z"
+      }, {
+        "iteration": 422400,
+        "ml_metrics": {
+          "accuracy": 0.9674
+        },
+        "timestamp": "2022-08-22T13:41:13.900Z"
+      }, {
+        "iteration": 428800,
+        "ml_metrics": {
+          "accuracy": 0.9687
+        },
+        "timestamp": "2022-08-22T13:41:13.900Z"
+      }, {
+        "iteration": 435200,
+        "ml_metrics": {
+          "accuracy": 0.9661
+        },
+        "timestamp": "2022-08-22T13:41:13.900Z"
+      }, {
+        "iteration": 441600,
+        "ml_metrics": {
+          "accuracy": 0.9684
+        },
+        "timestamp": "2022-08-22T13:41:14.100Z"
+      }, {
+        "iteration": 448000,
+        "ml_metrics": {
+          "accuracy": 0.9709
+        },
+        "timestamp": "2022-08-22T13:41:14.100Z"
+      }, {
+        "iteration": 454400,
+        "ml_metrics": {
+          "accuracy": 0.9737
+        },
+        "timestamp": "2022-08-22T13:41:14.100Z"
+      }, {
+        "iteration": 460800,
+        "ml_metrics": {
+          "accuracy": 0.9711
+        },
+        "timestamp": "2022-08-22T13:41:14.100Z"
+      }, {
+        "iteration": 467200,
+        "ml_metrics": {
+          "accuracy": 0.9695
+        },
+        "timestamp": "2022-08-22T13:41:14.100Z"
+      }],
+      "running_at": "2022-08-22T13:40:32.321Z",
+      "state": "completed"
+    },
+    "training_data_references": [{
+      "connection": {
+
+      },
+      "location": {
+        "path": "tf-mnist"
+      },
+      "type": "fs"
+    }]
+  }
+}

@@ -1,0 +1,189 @@
+train-images-idx3-ubyte.gz train-labels-idx1-ubyte.gz t10k-images-idx3-ubyte.gz t10k-labels-idx1-ubyte.gz
+['/opt/faye/user_data/faye-wmla123-dlw10/result_dir/egoadmin/batchworkdir/admin-2387782161081663-513204583/_submitted_code/model/convolutional_network.py', '--trainImagesFile', 'train-images-idx3-ubyte.gz', '--trainLabelsFile', 'train-labels-idx1-ubyte.gz', '--testImagesFile', 't10k-images-idx3-ubyte.gz', '--testLabelsFile', 't10k-labels-idx1-ubyte.gz', '--learningRate', '0.001', '--trainingIters', '6000']
+Extracting /opt/faye/user_data/faye-wmla123-dlw10/data_dir/tf-mnist/train-images-idx3-ubyte.gz
+Extracting /opt/faye/user_data/faye-wmla123-dlw10/data_dir/tf-mnist/train-labels-idx1-ubyte.gz
+Extracting /opt/faye/user_data/faye-wmla123-dlw10/data_dir/tf-mnist/t10k-images-idx3-ubyte.gz
+Extracting /opt/faye/user_data/faye-wmla123-dlw10/data_dir/tf-mnist/t10k-labels-idx1-ubyte.gz
+batchs_per_epoch: 430.6875
+failed to get hyper-parameters from config.json
+Time 1661175639.6774, instance 1419, Iter 50, Training Accuracy= 0.70312
+Time 1661175639.8996, instance 1419, Iter 100, Training Accuracy= 0.68750
+Time 1661175640.1092, instance 1419, Iter 150, Training Accuracy= 0.86719
+Time 1661175640.3229, instance 1419, Iter 200, Training Accuracy= 0.87500
+Time 1661175640.5234, instance 1419, Iter 250, Training Accuracy= 0.92188
+Time 1661175640.7170, instance 1419, Iter 300, Training Accuracy= 0.92969
+Time 1661175640.9004, instance 1419, Iter 350, Training Accuracy= 0.94531
+Time 1661175641.0914, instance 1419, Iter 400, Training Accuracy= 0.92969
+Time 1661175641.3247, instance 1419, Iter 450, Training Accuracy= 0.89844
+Time 1661175641.5091, instance 1419, Iter 500, Training Accuracy= 0.92188
+Time 1661175641.7011, instance 1419, Iter 550, Training Accuracy= 0.94531
+Time 1661175641.9083, instance 1419, Iter 600, Training Accuracy= 0.98438
+Time 1661175642.1302, instance 1419, Iter 650, Training Accuracy= 0.91406
+Time 1661175642.3299, instance 1419, Iter 700, Training Accuracy= 0.91406
+Time 1661175642.5206, instance 1419, Iter 750, Training Accuracy= 0.93750
+Time 1661175642.7180, instance 1419, Iter 800, Training Accuracy= 0.94531
+Time 1661175642.9091, instance 1419, Iter 850, Training Accuracy= 0.94531
+Time 1661175643.1560, instance 1419, Iter 900, Training Accuracy= 0.95312
+Time 1661175643.3379, instance 1419, Iter 950, Training Accuracy= 0.94531
+Time 1661175643.5184, instance 1419, Iter 1000, Training Accuracy= 0.97656
+Time 1661175643.7267, instance 1419, Iter 1050, Training Accuracy= 0.93750
+Time 1661175643.9070, instance 1419, Iter 1100, Training Accuracy= 0.97656
+Time 1661175644.0880, instance 1419, Iter 1150, Training Accuracy= 0.95312
+Time 1661175644.2751, instance 1419, Iter 1200, Training Accuracy= 0.95312
+Time 1661175644.4556, instance 1419, Iter 1250, Training Accuracy= 0.96094
+Time 1661175644.6960, instance 1419, Iter 1300, Training Accuracy= 0.92969
+Time 1661175644.8814, instance 1419, Iter 1350, Training Accuracy= 0.97656
+Time 1661175645.0764, instance 1419, Iter 1400, Training Accuracy= 0.93750
+Time 1661175645.2680, instance 1419, Iter 1450, Training Accuracy= 0.95312
+Time 1661175645.4595, instance 1419, Iter 1500, Training Accuracy= 0.94531
+Time 1661175645.6433, instance 1419, Iter 1550, Training Accuracy= 0.96094
+Time 1661175645.8286, instance 1419, Iter 1600, Training Accuracy= 0.95312
+Time 1661175646.0162, instance 1419, Iter 1650, Training Accuracy= 0.96094
+Time 1661175646.1942, instance 1419, Iter 1700, Training Accuracy= 0.97656
+Time 1661175646.4209, instance 1419, Iter 1750, Training Accuracy= 0.96875
+Time 1661175646.6040, instance 1419, Iter 1800, Training Accuracy= 0.96094
+Time 1661175646.7917, instance 1419, Iter 1850, Training Accuracy= 0.98438
+Time 1661175646.9785, instance 1419, Iter 1900, Training Accuracy= 0.94531
+Time 1661175647.1671, instance 1419, Iter 1950, Training Accuracy= 0.95312
+Time 1661175647.3475, instance 1419, Iter 2000, Training Accuracy= 0.96875
+Time 1661175647.5246, instance 1419, Iter 2050, Training Accuracy= 0.97656
+Time 1661175647.7025, instance 1419, Iter 2100, Training Accuracy= 0.95312
+Time 1661175647.9292, instance 1419, Iter 2150, Training Accuracy= 0.93750
+Time 1661175648.1159, instance 1419, Iter 2200, Training Accuracy= 0.97656
+Time 1661175648.3026, instance 1419, Iter 2250, Training Accuracy= 0.96875
+Time 1661175648.4850, instance 1419, Iter 2300, Training Accuracy= 0.98438
+Time 1661175648.6749, instance 1419, Iter 2350, Training Accuracy= 0.98438
+Time 1661175648.8584, instance 1419, Iter 2400, Training Accuracy= 0.99219
+Time 1661175649.0494, instance 1419, Iter 2450, Training Accuracy= 0.98438
+Time 1661175649.2317, instance 1419, Iter 2500, Training Accuracy= 0.96094
+Time 1661175649.4156, instance 1419, Iter 2550, Training Accuracy= 0.98438
+Time 1661175649.6597, instance 1419, Iter 2600, Training Accuracy= 0.96875
+Time 1661175649.8577, instance 1419, Iter 2650, Training Accuracy= 0.98438
+Time 1661175650.0614, instance 1419, Iter 2700, Training Accuracy= 0.96875
+Time 1661175650.2635, instance 1419, Iter 2750, Training Accuracy= 0.95312
+Time 1661175650.4658, instance 1419, Iter 2800, Training Accuracy= 0.97656
+Time 1661175650.6580, instance 1419, Iter 2850, Training Accuracy= 1.00000
+Time 1661175650.8603, instance 1419, Iter 2900, Training Accuracy= 0.97656
+Time 1661175651.0671, instance 1419, Iter 2950, Training Accuracy= 0.96875
+Time 1661175651.2601, instance 1419, Iter 3000, Training Accuracy= 0.96094
+Time 1661175651.4842, instance 1419, Iter 3050, Training Accuracy= 0.96875
+Time 1661175651.6672, instance 1419, Iter 3100, Training Accuracy= 0.98438
+Time 1661175651.8638, instance 1419, Iter 3150, Training Accuracy= 0.99219
+Time 1661175652.0691, instance 1419, Iter 3200, Training Accuracy= 0.98438
+Time 1661175652.2736, instance 1419, Iter 3250, Training Accuracy= 0.97656
+Time 1661175652.4765, instance 1419, Iter 3300, Training Accuracy= 0.97656
+Time 1661175652.6644, instance 1419, Iter 3350, Training Accuracy= 0.96094
+Time 1661175652.8459, instance 1419, Iter 3400, Training Accuracy= 1.00000
+Time 1661175653.0648, instance 1419, Iter 3450, Training Accuracy= 0.97656
+Time 1661175653.2494, instance 1419, Iter 3500, Training Accuracy= 0.99219
+Time 1661175653.4344, instance 1419, Iter 3550, Training Accuracy= 0.99219
+Time 1661175653.6357, instance 1419, Iter 3600, Training Accuracy= 0.98438
+Time 1661175653.8284, instance 1419, Iter 3650, Training Accuracy= 0.98438
+Time 1661175654.0277, instance 1419, Iter 3700, Training Accuracy= 0.96875
+Time 1661175654.2270, instance 1419, Iter 3750, Training Accuracy= 0.95312
+Time 1661175654.4291, instance 1419, Iter 3800, Training Accuracy= 0.98438
+Time 1661175654.6269, instance 1419, Iter 3850, Training Accuracy= 0.99219
+Time 1661175654.8650, instance 1419, Iter 3900, Training Accuracy= 1.00000
+Time 1661175655.0662, instance 1419, Iter 3950, Training Accuracy= 1.00000
+Time 1661175655.2824, instance 1419, Iter 4000, Training Accuracy= 1.00000
+Time 1661175655.4789, instance 1419, Iter 4050, Training Accuracy= 1.00000
+Time 1661175655.6764, instance 1419, Iter 4100, Training Accuracy= 1.00000
+Time 1661175655.8681, instance 1419, Iter 4150, Training Accuracy= 0.96875
+Time 1661175656.0457, instance 1419, Iter 4200, Training Accuracy= 0.98438
+Time 1661175656.2396, instance 1419, Iter 4250, Training Accuracy= 0.96875
+Time 1661175656.4676, instance 1419, Iter 4300, Training Accuracy= 0.97656
+Time 1661175656.6561, instance 1419, Iter 4350, Training Accuracy= 0.99219
+Time 1661175656.8404, instance 1419, Iter 4400, Training Accuracy= 0.98438
+Time 1661175657.0396, instance 1419, Iter 4450, Training Accuracy= 0.98438
+Time 1661175657.2234, instance 1419, Iter 4500, Training Accuracy= 0.97656
+Time 1661175657.4100, instance 1419, Iter 4550, Training Accuracy= 0.99219
+Time 1661175657.5939, instance 1419, Iter 4600, Training Accuracy= 1.00000
+Time 1661175657.7889, instance 1419, Iter 4650, Training Accuracy= 0.99219
+Time 1661175657.9970, instance 1419, Iter 4700, Training Accuracy= 0.96875
+Time 1661175658.2437, instance 1419, Iter 4750, Training Accuracy= 0.98438
+Time 1661175658.4483, instance 1419, Iter 4800, Training Accuracy= 1.00000
+Time 1661175658.6541, instance 1419, Iter 4850, Training Accuracy= 0.98438
+Time 1661175658.8511, instance 1419, Iter 4900, Training Accuracy= 0.99219
+Time 1661175659.0383, instance 1419, Iter 4950, Training Accuracy= 1.00000
+Optimization Finished!
+classification_signature content:
+inputs {
+  key: "inputs"
+  value {
+    name: "x_input:0"
+    dtype: DT_FLOAT
+    tensor_shape {
+      dim {
+        size: -1
+      }
+      dim {
+        size: 784
+      }
+    }
+  }
+}
+outputs {
+  key: "classes"
+  value {
+    name: "predictor:0"
+    dtype: DT_INT64
+    tensor_shape {
+      dim {
+        size: -1
+      }
+    }
+  }
+}
+method_name: "tensorflow/serving/classify"
+
+Testing Accuracy: 0.9921875
+2022-08-22 09:40:30.030810: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-08-22 09:40:32.268191: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-08-22 09:40:32.269757: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2022-08-22 09:40:32.339233: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0035:04:00.0 name: Tesla V100-SXM2-16GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2022-08-22 09:40:32.339269: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-08-22 09:40:32.342058: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2022-08-22 09:40:32.342085: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2022-08-22 09:40:32.343503: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-08-22 09:40:32.343814: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-08-22 09:40:32.346668: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-08-22 09:40:32.347345: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2022-08-22 09:40:32.347484: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2022-08-22 09:40:32.348452: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2022-08-22 09:40:32.355202: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-08-22 09:40:32.355750: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0035:04:00.0 name: Tesla V100-SXM2-16GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2022-08-22 09:40:32.355767: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-08-22 09:40:32.355785: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2022-08-22 09:40:32.355799: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2022-08-22 09:40:32.355812: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-08-22 09:40:32.355825: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-08-22 09:40:32.355840: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-08-22 09:40:32.355852: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2022-08-22 09:40:32.355866: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2022-08-22 09:40:32.356782: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2022-08-22 09:40:32.356803: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-08-22 09:40:32.748721: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-08-22 09:40:32.748768: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2022-08-22 09:40:32.748779: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2022-08-22 09:40:32.750465: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:39] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2022-08-22 09:40:32.750525: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14788 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0035:04:00.0, compute capability: 7.0)
+2022-08-22 09:40:32.770412: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:196] None of the MLIR optimization passes are enabled (registered 0 passes)
+2022-08-22 09:40:32.791539: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3800000000 Hz
+2022-08-22 09:40:32.978814: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2022-08-22 09:40:33.243612: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2022-08-22 09:40:33.247612: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2022-08-22 09:40:34.267545: W tensorflow/stream_executor/gpu/asm_compiler.cc:63] Running ptxas --version returned 256
+2022-08-22 09:40:34.297551: W tensorflow/stream_executor/gpu/redzone_allocator.cc:314] Internal: ptxas exited with non-zero error code 256, output: 
+Relying on driver to perform ptx compilation. 
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+WARNING:tensorflow:From /opt/faye/user_data/faye-wmla123-dlw10/result_dir/egoadmin/batchworkdir/admin-2387782161081663-513204583/_submitted_code/model/convolutional_network.py:231: build_tensor_info (from tensorflow.python.saved_model.utils_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This function will only be available through the v1 compatibility library as tf.compat.v1.saved_model.utils.build_tensor_info or tf.compat.v1.saved_model.build_tensor_info.
+WARNING:tensorflow:From /opt/faye/user_data/faye-wmla123-dlw10/result_dir/egoadmin/batchworkdir/admin-2387782161081663-513204583/_submitted_code/model/convolutional_network.py:256: calling SavedModelBuilder.add_meta_graph_and_variables (from tensorflow.python.saved_model.builder_impl) with legacy_init_op is deprecated and will be removed in a future version.
+Instructions for updating:
+Pass your op to the equivalent parameter main_op instead.

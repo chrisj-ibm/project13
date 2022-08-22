@@ -1,0 +1,74 @@
+{
+  "entity": {
+    "wml_model": {
+      "model_definition": {
+        "id": "wml_model_definition.GITmodeldefinition"
+      },
+      "hybrid_pipeline_software_specs": [],
+      "ml_version": "4.0.15",
+      "type": "tensorflow_rt22.1",
+      "content_location": {
+        "connection": {},
+        "contents": [
+          {
+            "content_format": "native",
+            "file_name": "admin-2387782161081663-513204583.zip",
+            "location": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/assets/aaf669cf-15c2-4d94-9f50-734437d07e17/resources/wml_model/admin-2387782161081663-513204583.zip"
+          }
+        ],
+        "location": {
+          "path": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings",
+          "model": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/aaf669cf-15c2-4d94-9f50-734437d07e17/data/model",
+          "notebooks_path": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/notebooks",
+          "training": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/aaf669cf-15c2-4d94-9f50-734437d07e17",
+          "training_status": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/aaf669cf-15c2-4d94-9f50-734437d07e17/training-status.json",
+          "logs": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/aaf669cf-15c2-4d94-9f50-734437d07e17/logs",
+          "assets_path": "/projects/9e62fac4-6520-4f51-bedd-0556168b1a44/assets/experiment/experiment.DLGITtesting/trainings/29de859f-27d7-416c-aaa0-96d8876052fa/assets"
+        },
+        "type": "fs"
+      },
+      "training_data_references": [
+        {
+          "connection": {},
+          "location": {
+            "path": "tf-mnist"
+          },
+          "type": "fs"
+        }
+      ],
+      "software_spec": {
+        "base_id": "acd9c798-6974-5d2f-a657-ce06e986df4d",
+        "name": "tensorflow_rt22.1-py3.9"
+      },
+      "content_import_state": "completed"
+    }
+  },
+  "metadata": {
+    "name": "test model from DL",
+    "asset_type": "wml_model",
+    "asset_category": "USER",
+    "resource_key": "2d4463e5-256c-4ef2-b501-bf0c16e3e703",
+    "origin_country": "US",
+    "created_at": "2022-08-22T13:45:12Z",
+    "created": 1661175912018,
+    "asset_id": "wml_model.testmodelfromDL",
+    "asset_attributes": [
+      "wml_model"
+    ]
+  },
+  "attachments": [
+    {
+      "asset_type": "wml_model",
+      "name": "admin-2387782161081663-513204583.zip",
+      "user_data": {
+        "content_format": "native"
+      },
+      "created_at": "2022-08-22T13:45:14Z",
+      "id": "c0e05e70-a26a-4e1f-808a-e5e56494dd62",
+      "is_managed": true,
+      "is_referenced": false,
+      "is_remote": false,
+      "transfer_complete": true
+    }
+  ]
+}
